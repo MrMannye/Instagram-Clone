@@ -37,7 +37,7 @@ function Header() {
     }
 
     return (
-        <div className="flex dark:bg-black justify-around py-2 items-center border-b-2">
+        <div className="flex sticky top-0 dark:bg-black justify-around py-2 items-center border-b-2">
             <div className="pt-2">
                 <Image 
                 src={"https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"}

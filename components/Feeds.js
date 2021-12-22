@@ -3,7 +3,7 @@ import Feed from "./Feed"
 
 export default function Feeds() {
     return (
-        <div className="">
+        <div className="md:max-w-3xl">
             <Stories></Stories>
             <Feed></Feed>
         </div>
