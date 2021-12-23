@@ -37,7 +37,7 @@ export default function Posts({id, img, user,imgpost, caption}) {
                 {caption}
             </p>
 
-            <form action="" className="px-4 pb-4 pt-2 flex items-center border-t-2">
+            <form action="" className="px-4 pb-4 pt-2 flex items-center border-t-[1px]">
                 <EmojiHappyIcon className="btn"></EmojiHappyIcon>
                 <input type="text" placeholder="Añadir un comentario..." className="border-none outline-none flex-[.99] text-sm pl-2"/>
                 <button className="text-blue-500 font-semibold">Publicar</button>
