@@ -14,7 +14,7 @@ export default function Storie({id,user, img}) {
     // }
     
     return (
-        <div className="flex flex-col text-center text-xs m-2 mx-4">
+        <div className="flex flex-col text-center text-xs m-2 mx-[11px]">
             {/* {renderImage} */}
             <img src={"https://source.unsplash.com/random"}
             alt="Imagen Historia"

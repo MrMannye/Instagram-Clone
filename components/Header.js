@@ -47,18 +47,18 @@ function Header() {
                 height={30}
                 />
             </div>
-            <div className='border-2 p-2 text-gray-400 text-sm flex-[.30] dark:border-0'>
+            <div className='border-2 px-2 p-[6px] text-gray-400 text-sm flex-[.45] dark:border-0'>
                 <div className="flex items-center">
                     <SearchIcon className="h-4 mr-2"/>
                     <input type="text" placeholder="Buscar" className="outline-none dark:bg-black dark:focus-within:text-white focus-within:text-black"/>
                 </div>
             </div>
             <div className="flex item-center pt-2 justify-evenly space-x-6">
-                <HomeIcon className="h-6"/>
-                <ChatIcon className="h-6"/>
-                <PlusCircleIcon className="h-6"/>
-                <VideoCameraIcon className="h-6"/>
-                <HeartIcon className="h-6"/>
+                <HomeIcon className="btn"/>
+                <ChatIcon className="btn"/>
+                <PlusCircleIcon className="btn"/>
+                <VideoCameraIcon className="btn"/>
+                <HeartIcon className="btn"/>
                 <div>
                     <Image 
                     src={"https://instagram.fcvj4-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/268462832_1346939695763683_6748246276847046887_n.jpg?_nc_ht=instagram.fcvj4-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=I1eyaCBtqD4AX_w3G5l&edm=AP_V10EBAAAA&ccb=7-4&oh=00_AT9V-pRyFl22-Te2Wc6197MPqEn37xkt8yHzpiHbVBVdsA&oe=61C9E159&_nc_sid=4f375e"}

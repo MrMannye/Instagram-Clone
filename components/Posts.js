@@ -15,9 +15,9 @@ export default function Posts({id, img, user,imgpost, caption}) {
                             height={35}
                             className="rounded-full"
                     />
-                    <span className="text-xs ml-2 font-bold tracking-wider">{user}</span>
+                    <span className="text-xs ml-2 font-semibold tracking-wider">{user}</span>
                 </div>
-                <DotsHorizontalIcon className="btn"/>
+                <DotsHorizontalIcon className="h-5"/>
             </div>
             {/* Imagen */}
             <Image src={imgpost} width={700} height={600} alt="Imagen de Post" className="object-cover w-full" />
@@ -32,8 +32,8 @@ export default function Posts({id, img, user,imgpost, caption}) {
                 <BookmarkIcon className="btn"></BookmarkIcon>
             </div>
             
-            <p className="px-4 pb-4 truncate text-sm">
-                <span className="font-bold mr-2 hover:underline cursor-pointer">{user}</span>
+            <p className="px-4 pb-4 truncate text-[13.5px]">
+                <span className="font-semibold mr-2 text-xs hover:underline cursor-pointer">{user}</span>
                 {caption}
             </p>
 

@@ -13,7 +13,7 @@ export default function Suggestions() {
     }, [])
     
     return (
-        <div className='ml-10 mt-6 w-full'>
+        <div className='ml-8 mt-6 w-full'>
             <div className='text-gray-400 text-sm w-full flex justify-between'>
                 <span>Sugerencias para ti</span>
                 <button className='text-black font-semibold text-xs'>Ver todo</button>
