@@ -37,13 +37,13 @@ function Header() {
     }
 
     return (
-        <div className="flex sticky top-0 dark:bg-black justify-around py-2 items-center border-b-2">
+        <div className="flex sticky z-50 bg-white top-0 dark:bg-black justify-around py-2 items-center border-b-2">
             <div className="pt-2">
                 <Image 
                 src={"https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"}
                 alt="Logo Instagram"
                 loading='lazy'
-                width={130}
+                width={120}
                 height={30}
                 />
             </div>
@@ -54,11 +54,11 @@ function Header() {
                 </div>
             </div>
             <div className="flex item-center pt-2 justify-evenly space-x-6">
-                <HomeIcon className="h-7"/>
-                <ChatIcon className="h-7"/>
-                <PlusCircleIcon className="h-7"/>
-                <VideoCameraIcon className="h-7"/>
-                <HeartIcon className="h-7"/>
+                <HomeIcon className="h-6"/>
+                <ChatIcon className="h-6"/>
+                <PlusCircleIcon className="h-6"/>
+                <VideoCameraIcon className="h-6"/>
+                <HeartIcon className="h-6"/>
                 <div>
                     <Image 
                     src={"https://instagram.fcvj4-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/268462832_1346939695763683_6748246276847046887_n.jpg?_nc_ht=instagram.fcvj4-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=I1eyaCBtqD4AX_w3G5l&edm=AP_V10EBAAAA&ccb=7-4&oh=00_AT9V-pRyFl22-Te2Wc6197MPqEn37xkt8yHzpiHbVBVdsA&oe=61C9E159&_nc_sid=4f375e"}

@@ -8,3 +8,9 @@
         @apply dark:bg-black
     }
 }
+
+@layer components{
+    .btn{
+        @apply h-7 hover:text-gray-500 cursor-pointer transition-all duration-150 ease-out;
+    }
+}

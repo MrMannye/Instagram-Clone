@@ -6,7 +6,7 @@ import Feeds from '../components/Feeds'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='bg-gray-50 dark:bg-black h-screen overflow-y-scroll scrollbar-hide'>
       <Head>
         <title>Instagram Clone</title>
         <meta name="description" content="Pagina Clone sobre Instagram como experencia para portafolio" />
@@ -17,14 +17,7 @@ export default function Home() {
       <Header/>
 
       {/* Section Body */}
-      <div className='flex p-6 px-8'>
-        <div className='flex flex-[.66]'>
-          <Feeds></Feeds>
-        </div>
-        <div className='flex flex-[.33]'>
-          <Sidebar></Sidebar>
-        </div>  
-      </div>
+      <Feeds></Feeds>
     </div>
   )
 }
