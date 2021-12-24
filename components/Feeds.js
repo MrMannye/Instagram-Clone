@@ -5,7 +5,7 @@ import Suggestions from "./Suggestions"
 
 export default function Feeds() {
     return (
-        <div className="md:max-w-4xl grid grid-cols-3 mx-12 xl:mx-auto xl:max-w-5xl mt-8">
+        <div className="md:max-w-4xl grid grid-cols-3 mx-12 xl:mx-auto xl:max-w-4xl mt-8">
             <section className="col-span-2">
                 {/* Historias y Posts */}
                 <Stories></Stories>

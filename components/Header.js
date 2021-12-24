@@ -53,7 +53,7 @@ function Header() {
                     <input type="text" placeholder="Buscar" className="outline-none dark:bg-black dark:focus-within:text-white focus-within:text-black"/>
                 </div>
             </div>
-            <div className="flex item-center pt-2 justify-evenly space-x-6">
+            <div className="flex item-center pt-2 justify-evenly space-x-4">
                 <HomeIcon className="btn"/>
                 <ChatIcon className="btn"/>
                 <PlusCircleIcon className="btn"/>
